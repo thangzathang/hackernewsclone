@@ -1,8 +1,9 @@
+import RouterHandler from "./router";
+
 class App {
-    constructor(){
-        alert("App works!");
-        console.log("App works!");
-    }
+  constructor() {
+    new RouterHandler();
+  }
 }
 
 new App();
